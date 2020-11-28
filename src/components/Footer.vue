@@ -1,7 +1,7 @@
 <template>
 <footer class="bg">
 <div class="container footerpadding text-white">
-    <div class="d-flex bd-highlight">
+    <div class="d-md-flex bd-highlight">
         <div class="p-2 w-100 bd-highlight">
             <h1>MR DAHUNSI</h1>
         </div>
@@ -31,14 +31,14 @@
     <hr class="line mt-5 mb-5" />
     <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <h3 class="font-weight-bolder">About software</h3>
+            <h3 class="font-weight-bolder smallmargin">About software</h3>
             <article class="smallline mt-4 mb-4"></article>
             <p class="text-muted">Vivamus lectus ligula, consectetur in <br /> ligula sit amet, mollis aliquet sapien. <br />Donec egestas leo nec velit porta,<br /> eu sodales eros auctor.</p>
 
             <p class="text-muted">Pellentesque placerat urna eu iaculis<br /> dictum. Donec bibendum pellentesq<br /> risus,commodo dapibus eros maxim<br /> quis.Curabitur at finibus nulla.</p>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <h3>Our Services</h3>
+            <h3 class="smallmargin">Our Services</h3>
             <article class="smallline  mt-4 mb-4"></article>
             <a href="#" class="chevright text-decoration-none text-muted">Vivamus</a><br />
             <a href="#" class="chevright text-decoration-none text-muted">Vivamus</a><br />
@@ -49,8 +49,8 @@
             <a href="#" class="chevright text-decoration-none text-muted">Vivamus</a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <h3>Quick Links</h3>
-            <article class="smallline  mt-4 mb-4"></article>
+            <h3 class="smallmargin">Quick Links</h3>
+            <article class="smallline mt-4 mb-4"></article>
             <a href="#" class="chevright text-decoration-none text-muted">Vivamus</a><br />
             <a href="#" class="chevright text-decoration-none text-muted">Vivamus</a><br />
             <a href="#" class="chevright text-decoration-none text-muted">Vivamus</a><br />
@@ -60,8 +60,8 @@
             <a href="#" class="chevright text-decoration-none text-muted">Vivamus</a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <h3>Contact Info</h3>
-            <article class="smallline"></article>
+            <h3 class="smallmargin">Contact Info</h3>
+            <article class="smallline mt-4 mb-4"></article>
             <p class="text-muted">
                 Street 238,52 tempor<br />
                 Donec ultricies mattis nulla, suscipit<br /> risus tristique utmattis nulla.
@@ -74,7 +74,7 @@
         </div>
     </div>
     <hr class="line mt-5 mb-5" />
-    <div class="d-flex bd-highlight">
+    <div class="d-md-flex bd-highlight">
         <div class="p-2 w-100 bd-highlight">
             <p class="text-muted">© 2020 SKT Software Pro. All Rights Reserved.</p>
         </div>
@@ -121,5 +121,14 @@ article.icons {
 }
 hr.line {
     background-color: gray;
+}
+@media (max-width: 768px) { 
+.bg{
+    height: 1780px;
+    background: #222933;
+}
+.smallmargin{
+    margin-top: 2rem;
+} 
 }
 </style>

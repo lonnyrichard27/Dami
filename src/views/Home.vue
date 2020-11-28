@@ -3,18 +3,62 @@
   <!-- header begins -->
   <section class="headerbg">
     <Navbar />
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 text-white margin">
-          <p class="shoptext h3">Shopping, Selling Buying In</p>
-          <h1 class="onetext font-weight-bolder">One Software </h1>
-          <p class="headerinfo">Sed suscipit mauris nec mauris vulputa apouere libero congue. Nam laoreet elit.</p>
-          <a href="#" class="btn btn-primary bg-white border-0 text-dark font-weight-bold rounded-pill px-4 py-3">Read More</a>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-white margin">
+              <p class="shoptext h3">Shopping, Selling Buying In</p>
+              <h1 class="onetext font-weight-bolder">One Software </h1>
+              <p class="headerinfo">Sed suscipit mauris nec mauris vulputa apouere libero congue. Nam laoreet elit.</p>
+              <a href="#" class="btn btn-primary bg-white border-0 text-dark font-weight-bold rounded-pill px-4 py-3">Read More</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 margimmobile">
+              <img src="../assets/thesvg.svg" class="img-fluid" alt="">
+            </div>
+          </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <img src="../assets/thesvg.svg" class="img-fluid" alt="">
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-white margin">
+              <p class="shoptext h3">Shopping, Selling Buying In</p>
+              <h1 class="onetext font-weight-bolder">One Software </h1>
+              <p class="headerinfo">Sed suscipit mauris nec mauris vulputa apouere libero congue. Nam laoreet elit.</p>
+              <a href="#" class="btn btn-primary bg-white border-0 text-dark font-weight-bold rounded-pill px-4 py-3">Read More</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12  margimmobile">
+              <img src="../assets/thesvg.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 text-white margin">
+              <p class="shoptext h3">Shopping, Selling Buying In</p>
+              <h1 class="onetext font-weight-bolder">One Software </h1>
+              <p class="headerinfo">Sed suscipit mauris nec mauris vulputa apouere libero congue. Nam laoreet elit.</p>
+              <a href="#" class="btn btn-primary bg-white border-0 text-dark font-weight-bold rounded-pill px-4 py-3">Read More</a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 marginmobile">
+              <img src="../assets/thesvg.svg" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
         </div>
       </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
   </section>
   <!-- header ends -->
@@ -22,7 +66,7 @@
   <!-- responsibility section -->
   <section class="container mt-5">
     <article class="text-center mt-5">
-      <p>Your Security is our</p>
+      <p class="font-weight-bold">Your Security is our</p>
       <h1>Responsibility</h1>
     </article>
     <div class="row">
@@ -81,7 +125,7 @@
 
   <!-- best features section -->
   <div class="container bestfeaturesmargin">
-    <img src="../assets/lines.svg" class="float-right linesimg" alt="">
+    <img src="../assets/lines.svg" class="float-right linesimg d-none d-md-block" alt="">
       <article class="text-center">
         <small>Features</small>
         <h1>Best Feautures Ever</h1>
@@ -205,35 +249,110 @@
   <!-- best plans start -->
   <div class="pricebg">
     <div class="container">
-      <article class="text-center">
-        <p>Our Pricing</p>
+      <article class="text-center pricemargin">
+        <p class="font-weight-bold">Our Pricing</p>
         <h1>Best Plans For You</h1>
       </article>
-      <div class="row pricemargin">
+      <div class="row">
         <div class="col-md-4 col-sm-12">
-          <div class="card cardbg">
+          <div class="card rounded">
+            <div class="cardbg text-white text-center">
+              <p class="font-weight-bold mt-5">Basic Plan</p>
+              <h1 class="mt-n4">$99</h1>
+              <p class="font-weight-bold mt-n2">Per Year</p>
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="d-flex">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-times" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-times" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary rounded-pill px-5 py-3 border-0" style="background-color: #4223af;">Choose Your Plan</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
-          <div class="card">
+           <div class="card rounded">
+            <div class="cardbg text-white text-center">
+              <p class="font-weight-bold mt-5">Basic Plan</p>
+              <h1 class="mt-n4">$99</h1>
+              <p class="font-weight-bold mt-n2">Per Year</p>
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="d-flex">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-times" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-times" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary rounded-pill px-5 py-3 border-0" style="background-color: #4223af;">Choose Your Plan</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-12">
-          <div class="card">
+           <div class="card rounded">
+            <div class="cardbg text-white text-center">
+              <p class="font-weight-bold mt-5">Basic Plan</p>
+              <h1 class="mt-n4">$99</h1>
+              <p class="font-weight-bold mt-n2">Per Year</p>
+            </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="d-flex">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-check" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-times" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="d-flex mt-3">
+                <i class="fa fa-times" style="color: #4223af;" aria-hidden="true"></i>
+                <span class="ml-3">Limited Insatll</span>
+              </div>
+              <div class="text-center mt-5">
+                <a href="#" class="btn btn-primary rounded-pill px-5 py-3 border-0" style="background-color: #4223af;">Choose Your Plan</a>
+              </div>
             </div>
           </div>
         </div>
@@ -244,7 +363,7 @@
 
   <!-- our news sectiom -->
   <div class="container featuresmargin">
-    <img src="../assets/lines.svg" class="float-right linesimg d-sm-none d-md-block" alt="">
+    <img src="../assets/lines.svg" class="float-right linesimg d-none d-md-block" alt="">
     <article class="text-center">
       <p class="font-weight-bold">Latest from our blog</p>
       <h1>Our News</h1>
@@ -357,20 +476,17 @@ export default {
   transform: rotate(180deg);
 }
 p.testtext {
-    font-size: 30px;
-    font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
 }
 h1.ourtext.font-weight-bolder {
-    margin-top: -1rem;
+  margin-top: -1rem;
 }
 #testcontainer{
   transform: rotate(180deg);
-  position: absolute;
-  margin-top: -4rem;
-  margin-left: 6rem;
 }
 .card.text-dark.rounded.shadow {
-    height: 18rem;
+  height: 18rem;
 }
 .profileimg{
   height: 60px;
@@ -391,11 +507,14 @@ h1.ourtext.font-weight-bolder {
   background: url('../assets/pricing.svg');
 }
 .pricemargin{
-  margin-top: 17rem;
+  padding-top: 17rem;
 }
 .cardbg{
-  height: 2rem;
-  background: url('../assets/header.svg')
+  height: 10rem;
+  background: url('../assets/header.svg');
+}
+.fa-check::before {
+  content: "\f00c";
 }
 /* pricing ends */
 
@@ -404,4 +523,76 @@ h1.ourtext.font-weight-bolder {
 margin-top: 11rem;
 }
 /* featuresmargin */
+
+@media (max-width: 768px) { 
+  /* pricing */
+.pricebg{
+  height: 1083px;
+  background: url('../assets/pricing.svg');
+}
+.pricemargin{
+  padding-top: 17rem;
+}
+.cardbg{
+  height: 10rem;
+  background: url('../assets/header.svg')
+}
+/* pricing ends */
+.col-lg-6.col-md-6.col-sm-12.text-white.margin {
+  margin-top: 2rem;
+}
+.headerbg{
+  height: 797px;
+  background: url('../assets/header.svg')
+}
+.onetext{
+  font-size: 50px;
+}
+.col-lg-6.col-md-6.col-sm-12.margimmobile {
+    margin-top: -4rem;
+}
+.shoptext{
+  color: yellow;
+  font-size: 27px
+}
+
+.linesimg{
+  margin-top: -6rem;
+  margin-right: 0rem;
+  margin-left: 0rem;
+}
+.softwarebg{
+  height: 948px;
+  background: #F0F5F8
+}
+
+/* testimonials section */
+.testbg{
+  margin-top: 6rem;
+  height: 845px;
+  background: #602DB5;
+
+}
+p.testtext {
+  font-size: 30px;
+  font-weight: 600;
+}
+h1.ourtext.font-weight-bolder {
+  margin-top: -1rem;
+}
+#testcontainer{
+  transform: rotate(180deg);
+}
+.card.text-dark.rounded.shadow {
+  height: 18rem;
+}
+.profileimg{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.featuresmargin{
+    margin-top: 51rem;
+}
+ }
 </style>
